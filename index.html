@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <h2>🎵 Melody Player</h2>
+    <h3 id="trackTitle">Track: </h3>
+
+    <!-- Circular Progress -->
+    <div class="circular-progress-container">
+      <svg class="circular-progress" width="150" height="150">
+        <circle class="bg" cx="75" cy="75" r="70"/>
+        <circle class="progress" cx="75" cy="75" r="70"/>
+      </svg>
+      <div class="time-circle">
+        <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="prevBtn">⏮️</button>
+      <button id="playPauseBtn">▶️</button>
+      <button id="nextBtn">⏭️</button>
+    </div>
+
+    <!-- Playlist Selection -->
+    <div class="playlist-toggle" id="playlistToggle">🎶</div>
+    <div class="playlist-dropdown" id="playlistDropdown">
+      <button class="playlist-btn" data-playlist="1">Playlist 1</button>
+      <button class="playlist-btn" data-playlist="2">Playlist 2</button>
+      <div id="playlist"></div>
+    </div>
+  </div>
+
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
