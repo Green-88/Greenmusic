@@ -3,6 +3,13 @@
 A modern web-based music player built with **HTML, CSS, and JavaScript**.  
 It supports multiple playlists, circular progress visualization, and click-to-seek functionality.
 
+## 🌐 Live Demo
+
+You can try the Melody Player online here:  
+[🎵 Live Demo](https://green-88.github.io/MelodyPlayer/)  
+
+*(Make sure your `songs/` and `songs2/` folders with MP3 files are uploaded to GitHub for the demo to work.)*
+
 ---
 
 ## 🚀 Features
