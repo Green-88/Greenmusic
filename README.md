@@ -6,7 +6,7 @@ It supports multiple playlists, circular progress visualization, and click-to-se
 ## 🌐 Live Demo
 
 You can try the Melody Player online here:  
-[🎵 Live Demo](https://green-88.github.io/MelodyPlayer/)  
+[🎵 Live Demo](https://green-88.github.io/Greenmusic/)  
 
 *(Make sure your `songs/` and `songs2/` folders with MP3 files are uploaded to GitHub for the demo to work.)*
 
